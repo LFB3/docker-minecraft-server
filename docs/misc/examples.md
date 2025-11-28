@@ -18,11 +18,7 @@ services:
       PLUGINS: |
         https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
-    ports:
-      - "25565:25565"
-      - "19132:19132/udp"
-    volumes:
-      - ./data:/data
+      - ./data:/home/container
 ```
 
 [Source](https://github.com/itzg/docker-minecraft-server/blob/master/examples/geyser/docker-compose.yml)
@@ -94,8 +90,7 @@ services:
     restart: no
     environment:
       EULA: "TRUE"
-    volumes:
-      - data:/data
+      - data:/home/container
 
 volumes:
   data:
@@ -131,8 +126,7 @@ services:
       EULA: TRUE
       TYPE: PAPER
       MEMORY: 4G
-    volumes:
-      - ./data:/data
+      - ./data:/home/container
     labels:
       - lazytainer.group=minecraft
     depends_on:

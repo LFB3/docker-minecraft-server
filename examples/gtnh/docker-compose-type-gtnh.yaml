@@ -17,6 +17,6 @@ services:
       MEMORY: 6G
     volumes:
       # attach a managed volume, change to a relative or absolute host directory if needed
-      - mc-data:/data
+      - mc-data:/home/container
 volumes:
   mc-data:

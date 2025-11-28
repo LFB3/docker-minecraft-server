@@ -3,9 +3,9 @@
 If you would like to run a custom server JAR, set `-e TYPE=CUSTOM` and pass the custom server
 JAR via `CUSTOM_SERVER`. It can either be a URL or a container path to an existing JAR file.
 
-If it is a URL, it will only be downloaded into the `/data` directory if it wasn't already. As
+If it is a URL, it will only be downloaded into the `/home/container` directory if it wasn't already. As
 such, if you need to upgrade or re-download the JAR, then you will need to stop the container,
-remove the file from the container's `/data` directory, and start again.
+remove the file from the container's `/home/container` directory, and start again.
 
 ## Force re-download of the server file
 
@@ -160,7 +160,7 @@ environment:
   DOWNLOAD_EXTRA_CONFIGS: "plugins/WorldEdit<https://example.com/worldedit.yml,config<https://example.com/another.yml"
 ```
 
-The files will be downloaded to `/data/` relative paths, so `plugins/WorldEdit` will be saved as `/data/plugins/WorldEdit/config.yml`.
+The files will be downloaded to `/home/container/` relative paths, so `plugins/WorldEdit` will be saved as `/home/container/plugins/WorldEdit/config.yml`.
 
 !!! note 
     The downloaded files can be further processed using [environment variable replacement](interpolating.md) or [patch definitions](interpolating.md#patching-existing-files)

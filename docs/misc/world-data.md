@@ -50,7 +50,7 @@ Datapacks can be installed in a similar manner to mods/plugins. There are many e
 * `REMOVE_OLD_DATAPACKS_INCLUDE`: default is `*.zip`
 * `REMOVE_OLD_DATAPACKS_EXCLUDE`: default is empty
 
-Datapacks will be placed in `/data/$LEVEL/datapacks`
+Datapacks will be placed in `/home/container/$LEVEL/datapacks`
 
 ## VanillaTweaks
 

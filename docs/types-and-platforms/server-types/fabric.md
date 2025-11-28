@@ -59,7 +59,7 @@ As [mentioned on the Fabric download page](https://fabricmc.net/use/installer/),
 
 If you wish to use an alternative launcher you can:  
 
-- Provide the path to a custom launcher jar available to the container with `FABRIC_LAUNCHER`, relative to `/data` (such as `-e FABRIC_LAUNCHER=fabric-server-custom.jar`)
+- Provide the path to a custom launcher jar available to the container with `FABRIC_LAUNCHER`, relative to `/home/container` (such as `-e FABRIC_LAUNCHER=fabric-server-custom.jar`)
 - Provide the URL to a custom launcher jar with `FABRIC_LAUNCHER_URL` (such as `-e FABRIC_LAUNCHER_URL=http://HOST/fabric-server-custom.jar`)
 
 ## Force re-install
