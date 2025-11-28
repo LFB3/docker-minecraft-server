@@ -1,5 +1,6 @@
 .vscode
 /home/container/
+/server-data/
 /.idea/
 *.iml
 /gh-md-toc
