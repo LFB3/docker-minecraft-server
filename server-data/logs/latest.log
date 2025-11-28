@@ -1,0 +1,37 @@
+[18:13:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:13:22] [ServerMain/INFO]: Loaded 1461 recipes
+[18:13:22] [ServerMain/INFO]: Loaded 1574 advancements
+[18:13:22] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[18:13:22] [Server thread/INFO]: Loading properties
+[18:13:22] [Server thread/INFO]: Default game type: SURVIVAL
+[18:13:22] [Server thread/INFO]: Generating keypair
+[18:13:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:13:22] [Server thread/INFO]: Using epoll channel type
+[18:13:22] [Server thread/INFO]: Preparing level "world"
+[18:13:22] [Server thread/INFO]: Loading 0 persistent chunks...
+[18:13:22] [Server thread/INFO]: Preparing spawn area: 100%
+[18:13:22] [Server thread/INFO]: Time elapsed: 13 ms
+[18:13:22] [Server thread/INFO]: Done (0.204s)! For help, type "help"
+[18:13:22] [Server thread/INFO]: Starting remote control listener
+[18:13:22] [Server thread/INFO]: Thread RCON Listener started
+[18:13:22] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[18:13:32] [User Authenticator #1/INFO]: UUID of player LFB3 is cac2dbeb-a11f-4cc4-965b-6b4fcb41633c
+[18:13:32] [Server thread/INFO]: LFB3[/172.18.0.1:48960] logged in with entity id 91 at (101.30000001192093, 68.0, 655.130797917183)
+[18:13:32] [Server thread/INFO]: LFB3 joined the game
+[18:13:35] [Server thread/INFO]: LFB3 lost connection: Disconnected
+[18:13:35] [Server thread/INFO]: LFB3 left the game
+[18:14:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:33:59] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[18:33:59] [Server thread/INFO]: [Rcon: Stopping the server]
+[18:33:59] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[18:33:59] [Server thread/INFO]: Stopping server
+[18:33:59] [Server thread/INFO]: Saving players
+[18:33:59] [Server thread/INFO]: Saving worlds
+[18:33:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:33:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:33:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:33:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:33:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:33:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:33:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:33:59] [Server thread/INFO]: Thread RCON Listener stopped

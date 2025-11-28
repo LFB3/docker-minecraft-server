@@ -383,7 +383,7 @@ function writeEula() {
 # $(date)
 eula=${EULA,,}
 " >/home/container/eula.txt; then
-    logError "Unable to write eula to /data. Please make sure attached directory is writable by uid=${UID}"
+    logError "Unable to write eula to /home/container. Please make sure attached directory is writable by uid=${UID}"
     exit 2
   fi
 }

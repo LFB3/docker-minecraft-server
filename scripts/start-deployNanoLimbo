@@ -5,7 +5,7 @@
 isDebugging && set -x
 
 if ! SERVER=$(mc-image-helper github download-latest-asset \
-  --output-directory=/data \
+  --output-directory=/home/container \
   --name-pattern="NanoLimbo(-.+?(?<!-sources))?\.jar" \
   BoomEaro/NanoLimbo
   ); then
@@ -14,7 +14,7 @@ if ! SERVER=$(mc-image-helper github download-latest-asset \
 fi
 
 : "${SERVER_PORT:=25565}"
-cat <<EOF > /data/settings.yml
+cat <<EOF > /home/container/settings.yml
 #
 # NanoLimbo configuration
 #
