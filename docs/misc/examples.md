@@ -18,6 +18,10 @@ services:
       PLUGINS: |
         https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/spigot
         https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/spigot
+    ports:
+      - "25565:25565"
+      - "19132:19132/udp"
+    volumes:
       - ./data:/home/container
 ```
 
@@ -90,6 +94,7 @@ services:
     restart: no
     environment:
       EULA: "TRUE"
+    volumes:
       - data:/home/container
 
 volumes:
@@ -126,6 +131,7 @@ services:
       EULA: TRUE
       TYPE: PAPER
       MEMORY: 4G
+    volumes:
       - ./data:/home/container
     labels:
       - lazytainer.group=minecraft
